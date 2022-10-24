@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin:0;
+    background-color: pink;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    margin-top: 200px;
+    height: 200px;
+    width: 600px;
+}
+
+h1{
+    color: rgb(223, 46, 76)
+}
+
+button{
+    width: 80px;
+    height: 30px;
+    margin-left: 260px;
+    background-color: rgb(223, 46, 76);
+    border-radius: 3px;
+}
