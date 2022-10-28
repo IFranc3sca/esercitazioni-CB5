@@ -33,24 +33,3 @@ const character = {
 console.log(Object.keys(character));
 console.log(Object.values(character));
 console.log(character.evoluzione);
-
-//Avanzato
-function nCalculator(op, numbers){
-    switch (op) {
-        case "addizione":
-          let sum = 0;
-          for(const n of numbers){
-            return sum+= Number(n); 
-          }
-          console.log(sum);
-        case "sottrazione":
-          return num1 - num2;
-        case "moltiplicazione":
-          return num1 * num2;
-        case "divisione":
-          return num1 / num2;
-      }
-}
-
-let result1 = nCalculator("addizione", [2,2,2]);
-console.log(result1);
