@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav {
+  position: fixed;
+  background-color: rgb(18, 18, 218, 0.25);
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.hero {
+  height: 200px;
+}
+
+.hero img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero h1 {
+  position: absolute;
+  color: white;
+  font-size: 1.5rem;
+  top: 80px;
+  left: 40px;
+  padding-right: 0;
+}
+
+button {
+  position: relative;
+  background-color: rgb(25, 25, 232);
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 10px 30px;
+  top: 10px;
+  left: 20px;
+  border: 0;
+}
+
+button:hover {
+  background-color: rgb(228, 184, 71);
+}
+
+button:active {
+  background-color: rgb(228, 184, 71);
+}
+
+.gallery h2 {
+  margin-top: 40px;
+  margin-left: 5px;
+  color: rgb(29, 29, 186);
+}
+.cards {
+  padding: 20px 0 0;
+  overflow-x: scroll;
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  left: 10px;
+  margin-left: 5px;
+}
+
+.card img {
+  border-radius: 12px;
+  height: 300px;
+  width: 250px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.description h1 {
+  color: rgb(29, 29, 186);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-left: 5px;
+}
+
+form h3 {
+  color: rgb(29, 29, 186);
+}
+
+footer {
+  margin-top: 40px;
+  height: 100px;
+  background-color: rgb(34, 32, 32);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 767px) {
+  header {
+    height: 300px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .description {
+    width: 500px;
+  }
+}
