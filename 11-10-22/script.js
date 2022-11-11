@@ -61,7 +61,7 @@ const onFirstLoad = () => {
     if (i > 150) i = 1;
     getPokemon(`https://pokeapi.co/api/v2/pokemon/${i}/`);
   });
-  //commento la riga successiva poiche' non funziona il load quindi stamperebbe bulbasaur due volte
+  //commento la riga successiva poiche' non funziona il load quindi stamperebbe bulbasaur due volte.
   // getPokemon(`https://pokeapi.co/api/v2/pokemon/${i}/`);
 };
 
