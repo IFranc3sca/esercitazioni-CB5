@@ -55,14 +55,13 @@ btnP.addEventListener("click", () => {
 });
 
 //attribuisco un avento al bottone next, e aggiungo il load che dovrebbe refreshare la pagina e stampare la nuova card
-const onFirstLoad = () => {
-  btnN.addEventListener("click", () => {
-    i++;
-    if (i > 150) i = 1;
-    getPokemon(`https://pokeapi.co/api/v2/pokemon/${i}/`);
-  });
-  //commento la riga successiva poiche' non funziona il load quindi stamperebbe bulbasaur due volte.
-  // getPokemon(`https://pokeapi.co/api/v2/pokemon/${i}/`);
-};
 
-window.onload = onFirstLoad;
+btnN.addEventListener("click", () => {
+  i++;
+  if (i > 150) i = 1;
+  getPokemon(`https://pokeapi.co/api/v2/pokemon/${i}/`);
+});
+//commento la riga successiva poiche' non funziona il load quindi stamperebbe bulbasaur due volte.
+// getPokemon(`https://pokeapi.co/api/v2/pokemon/${i}/`);
+
+window.onload = getPokemon();
