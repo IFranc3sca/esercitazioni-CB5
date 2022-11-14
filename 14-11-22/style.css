@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  /*height: 500px;*/
+}
+
+.post-id {
+  margin-bottom: 0;
+  margin-left: 150px;
+  font-weight: bold;
+  font-size: 50px;
+  color: gray;
+}
+
+.title {
+  margin-bottom: 0;
+  color: rgb(134, 51, 212);
+  font-size: 35px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.text {
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(56, 55, 55);
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  border: none;
+  outline: none;
+  background-color: grey;
+  padding: 10px 30px;
+  font-size: 20px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 10px auto;
+}
+
+.btn:hover {
+  background: rgb(134, 51, 212);
+}
+
+@media screen and (min-width: 500px) {
+  .card {
+    width: 600px;
+    justify-content: space-around;
+  }
+
+  .post-id {
+    margin-left: 10px;
+  }
+}
