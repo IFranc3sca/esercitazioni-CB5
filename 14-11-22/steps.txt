@@ -1,1 +1,7 @@
-1. costruisco il layout
+1. costruisco il layout html e css usando un "testo di prova"
+2. prendo i dati da stampare tramite fetch, url/index
+3. seleziono in un file utils.js tutti gli elementi, classi e id 
+4. in utils definisco GET funz generica
+5. importo tutto in main.js
+6. assegno gli eventi ai bottoni 
+7. creo una funzione che regola il comportamento dei bottoni 

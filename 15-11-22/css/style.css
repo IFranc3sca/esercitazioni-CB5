@@ -1,0 +1,49 @@
+body {
+  margin: 0%;
+  background-color: rgb(247, 220, 187, 0.75);
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.hero img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  margin-top: 0;
+}
+
+form {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.pokemonList {
+  list-style-type: none;
+  margin-top: 0;
+}
+
+.list h1 {
+  margin-left: 10px;
+  font-family: "Pokemon Solid", sans-serif;
+  font-weight: 100;
+  color: rgb(12, 148, 202);
+  margin: 0 0;
+}
+
+li {
+  font-size: 20px;
+  color: rgb(104, 213, 32);
+  font-family: "Pokemon Solid", sans-serif;
+}
