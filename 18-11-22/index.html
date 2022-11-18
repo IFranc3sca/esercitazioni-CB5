@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS - Pokémon</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/pokemon-solid"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Form Section -->
+    <header>
+      <img src="./images/pokemon1.jpg" />
+      <h1>Pokémon</h1>
+      <form name="pokemon" autocomplete="off">
+        <input type="text" placeholder="Pokemon name" name="name" />
+        <input type="text" required placeholder="Pokemon type" name="type" />
+        <input type="submit" class="btn" value="Save" />
+      </form>
+
+      <form name="pokemonPatch" autocomplete="off">
+        <input type="text" placeholder="Insert Id.." name="id" />
+        <input type="text" placeholder="Insert Name.." name="name" />
+        <input type="text" placeholder="Insert Type.." name="type" />
+        <input type="submit" class="btn" value="Modify" />
+      </form>
+    </header>
+    <!-- End - Form Section -->
+
+    <!-- Form Cards -->
+    <section class="cards">
+      <ul class="cards__list">
+        <!-- <li class="list__card">
+          <div>
+            <p>Name</p>
+            <p>Type</p>
+            <button>Delete</button>
+          </div>
+        </li> -->
+      </ul>
+    </section>
+    <!-- End Form Cards -->
+    <script type="module" src="./js/main.js"></script>
+    <script type="module" src="./js/utils.js"></script>
+    <script type="module" src="./js/api.js"></script>
+  </body>
+</html>

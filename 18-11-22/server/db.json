@@ -1,0 +1,34 @@
+{
+  "pokemon": [
+    {
+      "id": "38f79550-4a73-49aa-8077-886dabd8adaa",
+      "name": "Bulbasaur",
+      "type": "grass"
+    },
+    {
+      "id": "d3b334a8-e39e-498e-99ff-8b228bbda979",
+      "name": "Charmender",
+      "type": "fire"
+    },
+    {
+      "id": "5ed812c9-1d96-4d21-a671-147437f356f9",
+      "name": "Pikachu ",
+      "type": "electric"
+    },
+    {
+      "id": "31f05bff-46a9-4aa4-8cb3-119d44538240",
+      "name": "Wartortle",
+      "type": "water"
+    },
+    {
+      "id": "1dc68509-9ae0-4419-8ec0-680fff59db4d",
+      "name": "Diglett",
+      "type": "ground"
+    },
+    {
+      "id": "43de8f41-8849-4a3b-a11d-8be4c6e01683",
+      "name": "Bonsly",
+      "type": "rock"
+    }
+  ]
+}
