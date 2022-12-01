@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "nome": "Tim",
+    "cognome": "Burton",
+    "data_nascita": "25/08/1958",
+    "riconoscimenti": "Elenco premi vinti",
+    "inizio_attivita": "1985",
+    "fine_attivita": "",
+    "in_attivita": true
+  },
+  {
+    "id": 2,
+    "nome": "Steven",
+    "cognome": "Spielberg",
+    "data_nascita": "18/12/1946",
+    "riconoscimenti": "Elenco premi vinti",
+    "inizio_attivita": "1964",
+    "fine_attivita": "",
+    "in_attivita": true
+  },
+  {
+    "id": 3,
+    "nome": "Sofia",
+    "cognome": "Coppola",
+    "data_nascita": "14/05/1971",
+    "riconoscimenti": "Elenco premi vinti",
+    "inizio_attivita": "1999",
+    "fine_attivita": "",
+    "in_attivita": true
+  }
+]
