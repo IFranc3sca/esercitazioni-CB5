@@ -1,0 +1,38 @@
+.Button {
+  background: rgb(172, 255, 48);
+  border: rgb(172, 255, 48);
+  border-radius: 20px;
+  color: rgb(106, 44, 251);
+  font-size: bold;
+  padding: 20px 15px;
+  margin: 10px;
+}
+
+.Button--variant-surprise {
+  background: rgb(255, 79, 79);
+  color: #fff;
+}
+
+.Button--variant-surprise:hover {
+  background: rgb(172, 255, 48);
+  color: rgb(106, 44, 251);
+}
+
+.Button--variant-boring {
+  background: rgb(44, 52, 44);
+  color: #fff;
+}
+
+.Button--variant-boring:hover {
+  background-color: black;
+}
+
+.Button--variant-hello {
+  background: rgb(31, 195, 255);
+  color: rgb(255, 92, 63);
+}
+
+.Button--variant-hello:hover {
+  background-color: rgb(172, 255, 48);
+  color: rgb(106, 44, 251);
+}
