@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+
+.app {
+  text-align: center;
+}
+
+h1 {
+  color: blueviolet;
+  font-family: "Quicksand";
+  font-weight: bolder;
+}
+
+input {
+  padding: 4px;
+  margin-right: 8px;
+  border-radius: 10px;
+  font-family: "Quicksand";
+}
+
+button {
+  background-color: rgb(175, 255, 56);
+  color: blueviolet;
+  font-family: "Quicksand";
+  border: none;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 12px 0;
+  font-family: "Quicksand";
+}
+
+.delete-button {
+  font-size: 10px;
+  margin-left: 8px;
+  border: none;
+  border-radius: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 5px;
+}
