@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  font-family: quicksand;
+}
+
+.App div {
+  font-size: 30px;
+}
+
+.App h1 {
+  color: grey;
+}
+
+.App button {
+  width: 100px;
+  margin-left: 725px;
+  padding: 3px;
+  background-color: rgb(234, 198, 41);
+  color: rgb(179, 16, 16);
+  border-radius: 5px;
+  border-color: rgb(234, 198, 41);
+}
