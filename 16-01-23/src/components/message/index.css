@@ -1,0 +1,46 @@
+.Message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 6px 18px;
+}
+
+.Message img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.4);
+}
+
+.Message__textContent {
+  font-size: 0.9rem;
+}
+
+.Message__textContent h1 {
+  margin: 6px 0;
+  color: rgb(44, 185, 255, 0.75);
+  font-size: 1rem;
+}
+
+.Message__textContent p {
+  color: lightslategray;
+  font-weight: bold;
+  font-size: 0.8rem;
+  margin-top: 0;
+}
+
+.Message__textContent h4 {
+  margin: 6px 0;
+  color: rgb(55, 171, 228);
+  font-size: 1.2rem;
+}
+
+.Message__textContent button {
+  padding: 8px;
+  background-color: rgb(55, 171, 228, 0.7);
+  border: none;
+  border-radius: 3px;
+  color: white;
+  letter-spacing: 2px;
+}
