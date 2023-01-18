@@ -1,0 +1,17 @@
+.NewMessage {
+  background-color: rgb(44, 185, 255);
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.NewMessage form {
+  gap: 10px;
+}
+
+.NewMessage input {
+  height: 30px;
+  margin: 10px;
+}
