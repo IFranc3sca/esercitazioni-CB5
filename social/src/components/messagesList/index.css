@@ -1,0 +1,16 @@
+.MessagesList {
+  display: flex;
+  flex-direction: row;
+  margin-left: 70px;
+  gap: 10px;
+  overflow-x: scroll;
+  width: 100vw;
+}
+
+@media (min-width: 800px) {
+  .MessagesList {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 270px;
+  }
+}

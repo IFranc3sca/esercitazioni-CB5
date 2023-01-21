@@ -1,0 +1,8 @@
+.MainLayout {
+  margin: 0;
+}
+@media (min-width: 800px) {
+  .MainLayout {
+    margin: 0 40px;
+  }
+}

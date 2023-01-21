@@ -1,0 +1,30 @@
+.Filter {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.text {
+  width: 100%;
+  border: 3px solid #00b4cc;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+  color: #9dbfaf;
+}
+
+.text:focus {
+  color: #00b4cc;
+}
+
+.submit {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00b4cc;
+  background: #00b4cc;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
