@@ -1,0 +1,15 @@
+.Pages {
+  padding: 10px 20px;
+
+  &__users {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__posts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
