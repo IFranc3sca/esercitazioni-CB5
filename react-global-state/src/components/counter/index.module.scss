@@ -1,0 +1,12 @@
+.Counter {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  font-size: 4rem;
+  color: whitesmoke;
+  background-color: rgb(10, 0, 49);
+  button {
+    padding: 10px 15px;
+    font-size: large;
+  }
+}
