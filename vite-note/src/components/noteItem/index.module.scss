@@ -1,0 +1,30 @@
+.NoteItem {
+  background-color: rgb(186, 255, 101);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10px;
+  box-shadow: 4px 5px rgb(147, 147, 147, 0.25);
+  border-radius: 5px;
+  h1 {
+    color: rgb(248, 62, 124);
+    margin-left: 5px;
+  }
+  p {
+    color: gray;
+    margin-left: 5px;
+  }
+  button {
+    background-color: rgb(255, 85, 161);
+    margin-bottom: 10px;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    box-shadow: 2px 3px rgb(147, 147, 147, 0.25);
+    border-radius: 2px;
+    padding: 3px 5px;
+  }
+}
